@@ -72,7 +72,13 @@ function App() {
         }}
       />
       <Layout>
-        <Layout.Header>Feel Informed!</Layout.Header>
+        <Layout.Header
+          style={{
+            textAlign: 'center',
+          }}
+        >
+          Feel Informed!
+        </Layout.Header>
         <Layout.Content>
           {
             announcements.map(
